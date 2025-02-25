@@ -1,0 +1,7 @@
+.wholecontainer{
+    display: flex;
+    border: solid 3px black;
+    align-self: flex-end;
+    width: 300px;
+    height: 300px;
+}
