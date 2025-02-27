@@ -29,10 +29,25 @@
     border-radius: 8px;
 }
 
-#lefpar, #rigpar, #lefarrow, #toparrow, #rigarrow{
+#lefpar, #rigpar, #lefarrow, #toparrow, #rigarrow {
     width: 37px;
     height: 35px;
     border: solid 3px black;
     border-radius: 8px;
 }
 
+#two, #three{
+    width: 37px;
+    height: 35px;
+    margin-top: 5px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+#one {
+    margin-left: 3%;
+    width: 60px;
+    height: 35px;
+    margin-top: 5px;
+    border: solid 3px black;
+    border-radius: 8px;
