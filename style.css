@@ -2,12 +2,11 @@
     display: flex;
     border: solid 3px black;
     width: 300px;
-    height: 500px;
+    height: 485px;
     margin-left: 40%;
     margin-top: 5%;
     flex-direction: column;
     border-radius: 8px;
-
 }
 
 .screen {
@@ -24,30 +23,59 @@
 #power {
     margin-left: 3%;
     width: 75px;
-    height: 35px;
+    height: 40px;
     border: solid 3px black;
     border-radius: 8px;
 }
 
 #lefpar, #rigpar, #lefarrow, #toparrow, #rigarrow {
     width: 37px;
-    height: 35px;
+    height: 40px;
     border: solid 3px black;
     border-radius: 8px;
 }
 
 #two, #three{
     width: 37px;
-    height: 35px;
+    height: 40px;
     margin-top: 5px;
     border: solid 3px black;
     border-radius: 8px;
 }
 
-#one {
+#one, #four, #seven, #zero {
     margin-left: 3%;
-    width: 60px;
-    height: 35px;
+    width: 67px;
+    height: 40px;
     margin-top: 5px;
     border: solid 3px black;
     border-radius: 8px;
+}
+
+#two, #three, #five, #six, #clear, #eight, #nine, #add, #div, #mup, #sub, #downarrow {
+    width: 67px;
+    height: 40px;
+    margin-top: 5px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+#enter {
+    margin-left: 3%;
+    width: 280px;
+    height: 40px;
+    margin-top: 5px;
+    border: solid 3px black;
+    border-radius: 8px;
+}
+
+#pull {
+    display: flex;
+    border: solid 3px black;
+    width: 25px;
+    height: 250px;
+    margin-left: 35%;
+    margin-top: 5%;
+    flex-direction: column;
+    border-radius: 8px;
+}
