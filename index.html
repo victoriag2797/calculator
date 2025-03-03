@@ -4,43 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel ="stylesheet" href="style.css"
+    <link rel ="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <button id="pull"><</button>
-    <div class="wholecontainer">
-        <div class="screen">screen</div>
-        <div class="button">
-            <button id ="power">ON/OFF</button>
-            <button id ="lefpar">(</button>
-            <button id ="rigpar">)</button>
-            <button id ="lefarrow"><</button>
-            <button id ="toparrow">/\</button>
-            <button id ="rigarrow">></button>
-
-            <button id ="one">1</button>
-            <button id ="two">2</button>
-            <button id ="three">3</button>
-            <button id ="downarrow">\/</button>
-
-            <button id ="four">4</button>
-            <button id ="five">5</button>
-            <button id ="six">6</button>
-            <button id ="clear">CLEAR</button>
-            
-            <button id ="seven">7</button>
-            <button id ="eight">8</button>
-            <button id ="nine">9</button>
-            <button id ="add">+</button>
-        
-            <button id ="zero">0</button>
-            <button id ="div">/</button>
-            <button id ="mup">x</button>
-            <button id ="sub">-</button>
-
-            <button id ="enter">ENTER</button>
+    <div class="wholecontainer" id="wholecontainer">
+        <form>
+            <label for="fname"></label>
+            <input type="text" id="fname" class="fname"name="fname" readonly><br><br>
+            <div class="entclear">
+                <label for="ENTER"></label>
+                <input type="submit" value="ENTER" class="enterbut" id="enterbut"/>
+                <label for="CLEAR"></label>
+                <input type="reset" value="CLEAR" class="clearbut" id="clearbut"/>
+            </div>
+        </form>
+        <div class="buttons1">
+            <button class="button" id ="one">1</button>
+            <button class="button" id ="two">2</button>
+            <button class="button" id ="three">3</button>
+            <button class="button" id ="clear">></button>
+        </div>
+        <div class="buttons2"> 
+            <button class="button" id ="four">4</button>
+            <button class="button" id ="five">5</button>
+            <button class="button" id ="six">6</button>  
+            <button class="button" id ="dec">.</button>
+        </div>
+        <div class="buttons3">  
+            <button class="button" id ="seven">7</button>
+            <button class="button" id ="eight">8</button>
+            <button class="button" id ="nine">9</button>
+            <button class="button" id ="add">+</button>
+        </div>
+        <div class="buttons4">  
+            <button class="button" id ="zero">0</button>
+            <button class="button" id ="div">/</button>
+            <button class="button" id ="mup">x</button>
+            <button class="button" id ="sub">-</button>
         </div>
     </div>
+    <script src="calc.js"></script>
 </body>
 </html>
