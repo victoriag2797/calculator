@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
 #wholecontainer {
     display: flex;
     border: solid 3px black;
@@ -93,6 +98,57 @@ button {
     margin-bottom: 7%;
 }
 
+.pulloutbar {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 261px;
+    margin-top: 22.5%;
+}
+
+.outbar {
+    display: flex;
+    border: solid 3px black;
+    height: 261px;
+    width: 400px;
+    margin-top: 22.5%;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    height: 504px;
+    width: 268px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    height: 504px;
+    width: 268px;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    height: 504px;
+    width: 268px;
+    margin-left: 5%;
+    margin-top: 16%;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: row;
+    height: 504px;
+    width: 268px;
+    margin-left: 5%;
+    margin-top: 23%;
+}
 
 /* #power {
     margin-left: 3%;
