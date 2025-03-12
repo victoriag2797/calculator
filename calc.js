@@ -31,6 +31,5 @@ const pulloutbar = document.getElementById('pulloutbar');
 pulloutbar.addEventListener("click", barpullout);
 
 function barpullout (){
-  pulloutbar.innerHTML = 
-  "<button><</button>";
+  pulloutbar.innerHTML = "<div>outbar</div>";
 }
