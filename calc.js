@@ -24,12 +24,20 @@ function butenter (){
     console.error("Invalid input: ", e);
     document.getElementById("fname").value = result;
   }
+  document.getElementById("fname").value = result;
 } 
 
 const pulloutbar = document.getElementById('pulloutbar');
 
 pulloutbar.addEventListener("click", barpullout);
 
+//makes it so when the function is true, the bar is open
+let barOpen= true
 function barpullout (){
-  pulloutbar.innerHTML = "<div>outbar</div>";
+  if(!barOpen){
+    document.querySelector(".outbar").style.display="block"
+  }else{
+    document.querySelector(".outbar").style.display="none"
+  }
+  barOpen=!barOpen
 }

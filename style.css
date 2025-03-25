@@ -60,6 +60,8 @@ body {
     border-radius: 8px;
     box-sizing: border-box;
     background-color: #ebf1fc;
+    font-size: 20px;
+    text-align: center;
 }
 
 button {
@@ -166,7 +168,7 @@ button:hover {background-color: #feffbc}
     flex-direction: column;
     border: solid 3px 4c74c0;
     height: 255px;
-    width: 400px;
+    width: 355px;
     margin-top: 23%;
     border-radius: 8px;
     background-color: #4c74c0;
