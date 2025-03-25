@@ -32,7 +32,7 @@ const pulloutbar = document.getElementById('pulloutbar');
 pulloutbar.addEventListener("click", barpullout);
 
 //makes it so when the function is true, the bar is open
-let barOpen= true
+let barOpen= false
 function barpullout (){
   if(!barOpen){
     document.querySelector(".outbar").style.display="block"
